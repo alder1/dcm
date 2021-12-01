@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4848929500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "as-a-user-of-dcm-i-want-to-be-able-to-login-to-the-application-and-create-projects;",
+        "after": [
+          {
+            "result": {
+              "duration": 729425400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 426245300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the DCM Landing page",
+            "match": {
+              "location": "dcmHomePageTest.iAmOnTheDCMLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1643138500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Login button",
+            "match": {
+              "location": "dcmHomePageTest.iClickOnTheLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103434500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The Login Page should be displayed",
+            "match": {
+              "location": "dcmHomePageTest.theLoginPageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user of DCM I want to be able to login to the application and create projects",
+    "description": "",
+    "id": "as-a-user-of-dcm-i-want-to-be-able-to-login-to-the-application-and-create-projects",
+    "keyword": "Feature",
+    "uri": "dcmHomePage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1997886900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check Login with valid Email address and Password",
+        "description": "",
+        "id": "login;check-login-with-valid-email-address-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 731204300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1941500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches application",
+            "match": {
+              "location": "dcmLoginPageTest.userLaunchesApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 563849500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "dcmLoginPageTest.user_clicks_on_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2167895000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Email address and Password",
+            "match": {
+              "location": "dcmLoginPageTest.user_enters_Email_address_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1136372400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the Continue button",
+            "match": {
+              "location": "dcmLoginPageTest.user_clicks_on_the_Continue_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2425285100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see the Dashboard displayed",
+            "match": {
+              "location": "dcmLoginPageTest.user_should_see_the_Dashboard_displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "As a user of DCM application,I want to be able to test all the scenarios of login",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "dcmLoginPage.feature"
+  }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="16.775608">
+    <testcase classname="As a user of DCM I want to be able to login to the application and create projects" name="" time="7.751173">
+        <system-out>
+            <![CDATA[Given I am on the DCM Landing page..........................................passed
+When I click on the Login button............................................passed
+Then The Login Page should be displayed.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Check Login with valid Email address and Password" time="9.024435">
+        <system-out>
+            <![CDATA[Given User launches application.............................................passed
+Then User clicks on Login button............................................passed
+When User enters Email address and Password.................................passed
+Then User clicks on the Continue button.....................................passed
+And User should see the Dashboard displayed.................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
